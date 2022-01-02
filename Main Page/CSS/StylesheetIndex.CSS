@@ -1,0 +1,39 @@
+*{
+  font-family:Andale Mono, monospace;
+  padding-left: 50px;
+
+}
+li{
+  list-style: none;
+  display:inline-block;
+}
+body {
+background-image: url("Images/here.svg");
+background-color: #41B3A3;
+background-size: 100% 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+a:link{
+  color:#E8A87C;
+  padding-left: 25px;
+  text-shadow: 2px 2px #ff0000;
+}
+a:visited{
+  color: #E8A87C;
+}
+a:hover{
+  color: #C38D94;
+}
+
+Header{
+  text-align:left;
+  color: #E27D60;
+  font-size: 25px;
+  text-shadow: 2px 2px #ff0000;
+}
+Nav{
+  font-size: 24px;
+
+
+}
