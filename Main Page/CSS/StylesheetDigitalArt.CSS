@@ -1,0 +1,64 @@
+body {
+background-image: url("BackgroundImages/Test.2.svg");
+background-color: #FFFFFF;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+a:link{
+  color: #FB9F24;
+  text-shadow: px 2px #ff0000;
+  font-size: 23px;
+  text-align: center;
+
+}
+a:visited{
+  color: #FB9F24;
+}
+a:hover{
+  color: #FBD024;
+}
+Header{
+  text-align: center;
+  color: #FB9F24;
+  font-size: 25px;
+  text-shadow: 2px 2px #ff0000;
+}
+p{
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  padding-right: 120px;
+  padding-left: 50px;
+}
+h2 {
+  color: #FB9F24;
+  text-shadow: 2px 2px #ff0000;
+}
+a {
+  text-align:center;
+  color: #FB9F24;
+  font-size: 50px;
+  text-align: center;
+  display: block;
+
+}
+Nav{
+  font-size: 24px;
+  color: #FB9F24;
+  text-shadow: 2px 2px #ff0000;
+  text-align: center;
+  display: inline;
+
+}
+#Works{
+  display:none;
+}
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-color: #E27D60;
+border: 8px;
+padding: 5px;
+}

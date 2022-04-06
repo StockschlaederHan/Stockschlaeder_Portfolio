@@ -1,0 +1,53 @@
+*{
+  font-family:Andale Mono, monospace;
+}
+body {
+background-color: #FFFFFF;
+background-size: 100% 100%;
+
+}
+a:link{
+  color: #FB9F24;
+  text-shadow: px 2px #ff0000;
+  font-size: 23px;
+  text-align: center;
+
+}
+a:visited{
+  color: #FB9F24;
+}
+a:hover{
+  color: #FBD024;
+}
+Header{
+  text-align: center;
+  color: #FB9F24;
+  font-size: 25px;
+  text-shadow: 2px 2px #ff0000;
+}
+p{
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  padding-right: 120px;
+  padding-left: 50px;
+}
+h2 {
+  color: #FB9F24;
+  text-shadow: 2px 2px #ff0000;
+}
+Nav{
+  font-size: 24px;
+  color: #FB9F24;
+  text-shadow: 2px 2px #ff0000;
+
+}
+body{
+  text-align: center
+
+}
+img{
+  border-style: double;
+  border: 6px 6px;
+  border-color: #ff0000;
+}
