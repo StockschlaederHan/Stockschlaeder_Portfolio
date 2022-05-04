@@ -1,5 +1,9 @@
+@font-face {
+  font-family: 'PopFont';
+  src: url(BaksoSapi.otf);
+}
 *{
-  font-family:Andale Mono, monospace;
+  font-family:PopFont;
 
 }
 li{
@@ -8,47 +12,65 @@ li{
 }
 
 body {
-background-image: url("BackgroundImages/Test.2.svg");
-background-color: #FFFFFF;
-background-size: cover;
-background-attachment: fixed;
-background-repeat: no-repeat;
+  background-image: url("BackgroundImages/Flowers.png");
+  background-color:#3caea3;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
-
-a:link{
-  color: #FB9F24;
-  text-shadow: px 2px #ff0000;
-  font-size: 23px;
+.title{
+  display: flexbox;
   text-align: center;
-
+  align-items: center;
+  justify-content: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 100%;
 }
-a:visited{
-  color: #FB9F24;
+.titleimage{
+  width: 100%;
 }
-a:hover{
-  color: #FBD024;
-}
-
-Header{
+.navbar{
+  display: flexbox;
   text-align: center;
-  color: #FB9F24;
-  font-size: 25px;
-  text-shadow: 2px 2px #ff0000;
+  align-items: center;
+  justify-content: center;
 }
-p{
+.navlink, .navlink:link, .navlink:active, .navlink:visited{
+  font-size: 20pt;
+  width: auto;
+  display: inline-flex;
+  font-family: PopFont;
+  text-decoration: none;
+  color: #faf9f9;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
   text-align: center;
-  display: block;
-  font-size: 20px;
-  padding-right: 120px;
-  padding-left: 50px;
+  text-shadow: -3px 1px 0px #ED553B,
+                -6px 2px 0px #F6D55C,
+                 -9px 3px 0px #20639B,
+                 -12px 4px 0px #173F5F;
 }
-h2 {
-  color: #FB9F24;
-  text-shadow: 2px 2px #ff0000;
+.navlink:hover{
+  color:#173F5F;
+  text-shadow: -3px 1px 0px #20639B,
+                 -9px 3px 0px #F6D55C,
+                 -12px 4px 0px #ED553B;
 }
-Nav{
-  font-size: 24px;
-  color: #FB9F24;
-  text-shadow: 2px 2px #ff0000;
 
+
+.gallery{
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  max-width: 100%;
+}
+
+video{
+  flex-wrap: wrap;
 }

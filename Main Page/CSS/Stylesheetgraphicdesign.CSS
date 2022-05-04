@@ -1,53 +1,99 @@
+@font-face {
+  font-family: 'PopFont';
+  src: url(BaksoSapi.otf);
+}
 *{
-  font-family:Andale Mono, monospace;
+  font-family: PopFont;
 }
 body {
-background-color: #FFFFFF;
-background-size: 100% 100%;
-
+background-image: url("BackgroundImages/Flowers.png");
+background-color:#3caea3;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
 }
-a:link{
-  color: #FB9F24;
-  text-shadow: px 2px #ff0000;
-  font-size: 23px;
+.title{
+  display: flexbox;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 100%;
+}
+.titleimage{
+  width: 100%;
+}
+.navbar{
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.navlink, .navlink:link, .navlink:active, .navlink:visited{
+  font-size: 20pt;
+  width: auto;
+  display: inline-flex;
+  font-family: PopFont;
+  text-decoration: none;
+  color: #faf9f9;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  text-align: center;
+  text-shadow: -3px 1px 0px #ED553B,
+                -6px 2px 0px #F6D55C,
+                 -9px 3px 0px #20639B,
+                 -12px 4px 0px #173F5F;
+}
+.navlink:hover{
+  color:#173F5F;
+  text-shadow: -3px 1px 0px #20639B,
+                 -9px 3px 0px #F6D55C,
+                 -12px 4px 0px #ED553B;
+}
+
+.portfolioheader{
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width:100%;
+}
+.Table{
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 
 }
-a:visited{
-  color: #FB9F24;
+
+.imagesize{
+  width: 40%;
+  height: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  max-width: 100%;
 }
-a:hover{
-  color: #FBD024;
+.imagesize2{
+  width: 25%;
+  height: 25%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  max-width: 100%;
+}
+.imagesize3{
+  width: 25%;
+  height: 25%;
+  padding-left: 75px;
+  max-width: 100%;
 }
 Header{
   text-align: center;
   color: #FB9F24;
   font-size: 25px;
-  text-shadow: 2px 2px #ff0000;
-}
-p{
-  text-align: center;
-  display: block;
-  font-size: 20px;
-  padding-right: 120px;
-  padding-left: 50px;
-}
-h2 {
-  color: #FB9F24;
-  text-shadow: 2px 2px #ff0000;
-}
-Nav{
-  font-size: 24px;
-  color: #FB9F24;
-  text-shadow: 2px 2px #ff0000;
-
-}
-body{
-  text-align: center
-
-}
-img{
-  border-style: double;
-  border: 6px 6px;
-  border-color: #ff0000;
 }
